@@ -28,10 +28,6 @@ Install-ChocoPackage nodejs-lts
 # Installing Git
 Install-ChocoPackage git
 Update-SessionEnvironment
- 
-# Git and friends
-# git-lfs includes git as a dependency so there is no need to install it explicitly
-Install-ChocoPackage git-lfs
 
 # Java 11
 Install-ChocoPackage jdk11
